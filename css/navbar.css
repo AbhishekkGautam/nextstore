@@ -65,14 +65,14 @@
     display: flex;
     height: auto;
     border-radius: 4px;
-    padding: 2px 0;
-    background: var(--gray-900);
+    padding: 2px;
+    background: transparent;
     border: 1px solid var(--gray-800);
   }
 
   .nav-form .search-input {
-    padding: 4px 10px;
-    color: var(--white);
+    padding: 4px 8px;
+    color: var(--gray-50);
     font-weight: 400;
     background: none;
     border: none;
@@ -84,7 +84,7 @@
   .nav-form .search-btn {
     display: flex;
     align-items: center;
-    padding: 0 15px;
+    padding: 0px 15px;
     background: transparent;
     border: none;
     cursor: pointer;
@@ -95,7 +95,8 @@
   }
 
   .nav-form .search-btn:hover {
-    background: var(--white);
+    background: var(--primary-color);
+    color: var(--white);
   }
 
   .nav-ecommerce .navbar-nav .nav-item {
