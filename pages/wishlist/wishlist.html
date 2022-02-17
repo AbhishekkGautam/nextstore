@@ -9,9 +9,8 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
 		integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
 		crossorigin="anonymous" referrerpolicy="no-referrer" />
-	<link rel="stylesheet" href="./css/main.css">
-	<link rel="stylesheet" href="./css/navbar.css">
-	<title>Home | nextstore</title>
+	<link rel="stylesheet" href="./wishlist.css">
+	<title>Wishlist | nextstore</title>
 </head>
 
 <body>
@@ -38,7 +37,7 @@
 					</a>
 				</li>
 				<li class="nav-item">
-					<a href="./pages/wishlist/wishlist.html" class="nav-link badge badge-on-icon-sm">
+					<a class="nav-link badge badge-on-icon-sm">
 						<i class="material-icons-outlined">
 							favorite_border
 						</i>
@@ -65,72 +64,18 @@
 		</div>
 	</nav>
 	<main>
-		<section>
-			<div class="hero">
-				<div class="hero-img">
-					<img class="img-responsive" src="./assets/hero-img.png" alt="">
-				</div>
-				<div class="hero-content flex-center flex-col text-center">
-					<div class="">
-						<h1 class="hero-title">UPTO 80% OFF</h1>
-					</div>
-					<div class="">
-						<p class="hero-description">
-							Get your next smart wearables at the best price.
-						</p>
-					</div>
-					<div class="hero-btn">
-						<a class="btn btn-primary" href="">Shop Now</a>
-					</div>
-				</div>
-			</div>
-		</section>
-		<section>
-			<div class="container">
-				<h2 class="text-left category-title font-weight-500">Explore Categories</h2>
-				<div class="category-container">
-					<div class="grid grid-col-2 gap-3">
-						<div class="category-card">
-							<div class="card text-only-card">
-								<h5 class="card-title text-center font-weight-400">Watches</h5>
-							</div>
-						</div>
-						<div class="category-card">
-							<div class="card text-only-card">
-								<h5 class="card-title text-center font-weight-400 ">Bands</h5>
-							</div>
-						</div>
-						<div class="category-card">
-							<div class="card text-only-card">
-								<h5 class="card-title text-center font-weight-400 ">Glasses</h5>
-							</div>
-						</div>
-						<div class="category-card">
-							<div class="card text-only-card">
-								<h5 class="card-title text-center font-weight-400 ">VR Headsets</h5>
-							</div>
-						</div>
-						<div class="category-card">
-							<div class="card text-only-card">
-								<h5 class="card-title text-center font-weight-400 ">Shoes</h5>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<section class="card-container">
-			<h2 class="text-left category-title font-weight-500">Featured Products</h2>
-			<div class="featured-product-container">
+		<section class="wishlist-section card-container">
+			<h2 class="category-title font-weight-500">Your Wishlist</h2>
+			<div class="wishlist-product-container">
 				<div class="grid grid-col-2">
-					<div class="featured-product-card">
+					<div class="wishlist-product-card">
 						<div class="card ecommerce-card card-with-badge">
 							<div class="card-header">
 								<img src="https://www.southwestjournal.com/wp-content/uploads/2019/02/Fitbit_Versa_3QTR_Black_ClockDefault.jpeg"
 									alt="..">
 							</div>
 							<button class="card-floating-icon">
-								<span class="material-icons-outlined">favorite_border</span>
+								<span class="material-icons-outlined">close</span>
 							</button>
 							<div class="card-body">
 								<h5 class="card-title">Watch X15 Air</h5>
@@ -139,17 +84,19 @@
 									<span class="price-before-discount">₹6,990</span>
 									<span class="discount">64% OFF</span>
 								</div>
+								<button class="btn btn-light btn-sm font-weight-500 move-to-bag">MOVE TO
+									BAG</button>
 							</div>
 						</div>
 					</div>
-					<div class="featured-product-card">
+					<div class="wishlist-product-card">
 						<div class="card ecommerce-card card-with-badge">
 							<div class="card-header">
 								<img src="https://5.imimg.com/data5/TestImages/QC/VB/CC/SELLER-74949445/bulk-fitness-waterproof-m3-smart-band-0-87-oled-sports-smart-bracelet-500x500.jpg"
 									alt="..">
 							</div>
 							<button class="card-floating-icon">
-								<span class="material-icons-outlined">favorite_border</span>
+								<span class="material-icons-outlined">close</span>
 							</button>
 							<div class="card-body">
 								<h5 class="card-title">Smart Band M3</h5>
@@ -158,16 +105,18 @@
 									<span class="price-before-discount">₹3,999</span>
 									<span class="discount">70% OFF</span>
 								</div>
+								<button class="btn btn-light btn-sm font-weight-500 move-to-bag">MOVE TO
+									BAG</button>
 							</div>
 						</div>
 					</div>
-					<div class="featured-product-card">
+					<div class="wishlist-product-card">
 						<div class="card ecommerce-card card-with-badge">
 							<div class="card-header">
 								<img src="https://m.media-amazon.com/images/I/615YaAiA-ML._SX679_.jpg" alt="..">
 							</div>
 							<button class="card-floating-icon">
-								<span class="material-icons-outlined">favorite_border</span>
+								<span class="material-icons-outlined">close</span>
 							</button>
 							<div class="card-body">
 								<h5 class="card-title">Oculus Quest 2</h5>
@@ -176,17 +125,19 @@
 									<span class="price-before-discount">₹44,444</span>
 									<span class="discount">27% OFF</span>
 								</div>
+								<button class="btn btn-light btn-sm font-weight-500 move-to-bag">MOVE TO
+									BAG</button>
 							</div>
 						</div>
 					</div>
-					<div class="featured-product-card">
+					<div class="wishlist-product-card">
 						<div class="card ecommerce-card card-with-badge">
 							<div class="card-header">
 								<img class="img-responsive"
 									src="https://kicksdailyvn.com/wp-content/uploads/2020/08/IMG_9082.png" alt="..">
 							</div>
 							<button class="card-floating-icon">
-								<span class="material-icons-outlined">favorite_border</span>
+								<span class="material-icons-outlined">close</span>
 							</button>
 							<div class="card-body">
 								<h5 class="card-title">Nike Adapt BB</h5>
@@ -195,6 +146,8 @@
 									<span class="price-before-discount">₹36,990</span>
 									<span class="discount">40% OFF</span>
 								</div>
+								<button class="btn btn-light btn-sm font-weight-500 move-to-bag">MOVE TO
+									BAG</button>
 							</div>
 						</div>
 					</div>
