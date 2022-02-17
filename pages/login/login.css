@@ -19,13 +19,12 @@ body {
 
 .card.login-card-container {
   padding: 1rem;
-  border-radius: 4px;
+  border-radius: 8px;
   margin-bottom: 1rem;
   width: 100%;
   max-width: 400px;
   height: auto;
   overflow: hidden;
-  box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.05);
 }
 
 .card.login-card-container .card-title {
