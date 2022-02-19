@@ -2,6 +2,7 @@
 
 .nav-ecommerce {
   background-color: var(--gray-900);
+  min-height: 8vh;
   position: fixed;
   z-index: 4;
   top: 0;
@@ -66,13 +67,12 @@
     height: auto;
     border-radius: 4px;
     padding: 2px;
-    background: transparent;
-    border: 1px solid var(--gray-800);
+    background: var(--gray-800);
   }
 
   .nav-form .search-input {
     padding: 4px 8px;
-    color: var(--gray-50);
+    color: var(--white);
     font-weight: 400;
     background: none;
     border: none;
