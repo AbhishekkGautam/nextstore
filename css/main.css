@@ -1,4 +1,5 @@
 @import "../css/default.css";
+@import "../css/footer.css";
 
 .container {
   padding: 0 1rem;
@@ -99,24 +100,6 @@
 
 .featured-product-card .card-body {
   padding: 0.5rem 1rem;
-}
-
-.footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 2rem 1rem;
-  margin-top: 2rem;
-  background: var(--gray-800);
-}
-
-.footer-social-icons .link {
-  color: white;
-  margin-left: 12px;
-}
-
-.footer-social-icons .link i {
-  font-size: 20px;
 }
 
 @media only screen and (max-width: 900px) {
