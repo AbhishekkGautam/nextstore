@@ -5,6 +5,10 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="apple-touch-icon" sizes="180x180" href="../../favicon_io/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="../../favicon_io/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="../../favicon_io/favicon-16x16.png">
+	<link rel="manifest" href="../../favicon_io/site.webmanifest">
 	<link rel="stylesheet" href="https://momentui.netlify.app/css/components.css" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
 		integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
@@ -60,7 +64,6 @@
 					</a>
 				</li>
 			</ul>
-			<!-- <button class="btn btn-secondary-outline btn-sm">Login</button> -->
 		</div>
 	</nav>
 	<main class="main-wrapper">
@@ -68,15 +71,27 @@
 			<div class="card signup-card-container">
 				<div class="card-title">Signup</div>
 				<div class="card-body">
-					<div class="input-group">
-						<label class="input-label">Email address</label>
-						<input type="email" class="input-field" required>
-					</div>
-
-					<div class="input-group">
-						<label class="input-label">Password</label>
-						<input type="password" class="input-field" required>
-					</div>
+					<form action="#">
+						<div class="input-group">
+							<label class="input-label">Email address</label>
+							<input type="email" class="input-field" required>
+						</div>
+						<div class="input-group">
+							<label class="input-label">First Name</label>
+							<input type="text" class="input-field" required>
+						</div>
+						<div class="input-group">
+							<label class="input-label">Last Name</label>
+							<input type="text" class="input-field" required>
+						</div>
+						<div class="input-group">
+							<label class="input-label">Password</label>
+							<input type="password" class="input-field" required>
+						</div>
+						<div class="input-group">
+							<label class="input-label">Confirm Password</label>
+							<input type="password" class="input-field" required>
+						</div>
 				</div>
 				<div class="card-extra-content">
 					<div class="checkbox-group">
@@ -87,8 +102,9 @@
 					</div>
 				</div>
 				<button class="btn btn-primary signup-btn">Create New Account</button>
+				</form>
 				<div class="create-new-account-link">
-					<a href="#">
+					<a href="../login/login.html">
 						Already have an account
 						<span class="material-icons">chevron_right</span>
 					</a>

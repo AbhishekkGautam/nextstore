@@ -46,6 +46,10 @@
   padding: 0;
 }
 
+.login-btn {
+  display: none;
+}
+
 .nav-ecommerce .navbar-nav .nav-item {
   margin-right: 0;
   margin-left: 1.25rem;
@@ -58,6 +62,9 @@
 }
 
 @media only screen and (min-width: 768px) {
+  .login-btn {
+    display: block;
+  }
   .nav-ecommerce .nav-item .nav-link .search-icon-mobile {
     display: none;
   }

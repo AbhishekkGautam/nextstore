@@ -46,6 +46,10 @@ body {
   margin-top: 5rem;
 }
 
+.ml-1 {
+  margin-left: 1rem;
+}
+
 .category-title {
   font-size: 1.5rem;
   margin-top: 3rem;
