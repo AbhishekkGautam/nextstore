@@ -145,7 +145,7 @@
     display: block;
     position: sticky;
     width: auto;
-    height: calc(100vh);
+    height: auto;
     top: 0rem;
     flex: 0 0 20%;
     padding-right: 1rem;
